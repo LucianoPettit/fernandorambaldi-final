@@ -1,5 +1,5 @@
 /* imports */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,700&display=swap");
 /* fin de imports */
 /* font-family: 'EB Garamond', serif; */
 /* reset de pagina */
@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 /* fin de reset */
 
@@ -23,28 +23,24 @@
 
 /* body/html */
 html,
-body{
-  background-color:#e7501d68;
-
+body {
+  background-color: #e7501d68;
 }
-
 
 .container {
   width: 100%;
   max-width: 1920px;
-
 }
 ::selection {
-  background-color:white;
+  background-color: white;
   color: black;
 }
 /* heder nav*/
 
-
-  .links{
-    display: flex;
-    justify-content: end;
-  }
+.links {
+  display: flex;
+  justify-content: end;
+}
 .leftContent {
   display: flex;
   text-align: center;
@@ -56,18 +52,16 @@ body{
   color: white;
   margin-left: 30px;
   font-weight: bold;
-  
 }
 .navbar-brand:hover {
   color: #e74f1d;
-} 
+}
 #navbarText {
   font-size: 18px;
   color: var(--primario);
   margin-right: 30px;
 }
 .nav-item:hover {
-  
 }
 .nav-link:hover {
   color: #e74f1d;
@@ -76,23 +70,21 @@ body{
   color: white;
   font-size: 20px;
 }
-.navbar{
+.navbar {
   background-color: transparent !important;
 }
 
-.nav-item    {
+.nav-item {
   font-size: 35px;
   z-index: 10;
 }
 .custom-class {
-  background-color: #ffffff; 
-  
+  background-color: #ffffff;
 }
-
 
 .imgfixed {
   text-align: center;
-  background-image: linear-gradient(390deg, #ffffff2a, rgba(0, 0, 0, 0.812) ),
+  background-image: linear-gradient(390deg, #ffffff2a, rgba(0, 0, 0, 0.812)),
     url("../img/test1.jpg");
   width: auto;
   height: 80vh;
@@ -107,20 +99,19 @@ body{
   padding: 20px;
   text-align: center;
   width: 100%;
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.heroTextContainer{
-width: 70%;
-
+.heroTextContainer {
+  width: 70%;
 }
 .heroText {
   display: block;
-margin-top: 200px;
+  margin-top: 200px;
 }
 
 .subtitleHeroText {
@@ -128,9 +119,9 @@ margin-top: 200px;
   color: white;
 }
 .titleHeroText {
-  font-size:37px;
-   color: white;
-   font-weight: bold;
+  font-size: 37px;
+  color: white;
+  font-weight: bold;
 }
 
 /* fin del hero */
@@ -143,18 +134,16 @@ margin-top: 200px;
   width: 100%;
   justify-content: center;
   align-items: center;
-
-  
 }
 .biografia h2 {
   align-items: center;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
-font-weight: bold;
+  font-weight: bold;
   font-size: 35px;
 }
-.biografia{
+.biografia {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -162,9 +151,8 @@ font-weight: bold;
   text-align: center;
   flex-direction: column;
   font-size: 20px;
-  
 }
-.biografiaContainer{
+.biografiaContainer {
   width: 80%;
   display: flex;
   justify-content: center;
@@ -172,7 +160,6 @@ font-weight: bold;
   text-align: center;
   flex-direction: column;
   font-size: 20px;
-  
 }
 
 .biografiaContainer h4 {
@@ -180,89 +167,82 @@ font-weight: bold;
   line-height: 2;
   padding-bottom: 40px;
   border-bottom: 2px solid black;
-
 }
 
 /* fin de biografia */
-.formacion h2{
-  text-align: center;
-   color: black;
-}
-
-.formacion h2{
+.formacion h2 {
   text-align: center;
   color: black;
 }
 
-.formacionFuncion{
+.formacion h2 {
+  text-align: center;
+  color: black;
+}
+
+.formacionFuncion {
   display: flex;
   justify-content: center;
   width: 100%;
-  
 }
-.contenderFormacion{
-  width:90%;
+.contenderFormacion {
+  width: 90%;
   display: flex;
   justify-content: center;
   margin-top: 20px;
   padding: 10px;
-  
-  
 }
-  .formacion{
-    width:80%;
-    margin: 10px;
-     color: black;
-     margin-top: 10px;
-     margin-right: 40px;
-  }
+.formacion {
+  width: 80%;
+  margin: 10px;
+  color: black;
+  margin-top: 10px;
+  margin-right: 40px;
+}
 /* formacion */
 
 .logoycontenido p {
   border-bottom: 1px solid black;
 }
-  
-  .funcion{
-    width: 50%;
-    color: black;
-    margin-left: 40px;
-    display: flex;
+
+.funcion {
+  width: 50%;
+  color: black;
+  margin-left: 40px;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   margin-top: 10px;
   height: 300px;
   margin-bottom: 60px;
-  }
-  
-  .logoContainer{
-    display: flex;
-    gap: 10px;
-    text-align: center;
-    justify-content: center;
-    
-    
-  } 
-  .Title{
-    font-weight: bold;
-  }
-   .logoContainer h2{
-    justify-content: flex-start;
-    align-items: flex-start;
-    
-   }
-  i{
-    top: 9px;
-    position: relative;
-    font-size: 25px;
-  }
-  .formacion p{
-    font-size: 24px;
-  }
+}
+
+.logoContainer {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.Title {
+  font-weight: bold;
+}
+.logoContainer h2 {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+i {
+  top: 9px;
+  position: relative;
+  font-size: 25px;
+}
+.formacion p {
+  font-size: 24px;
+}
 
 /* fin de formacion */
 /* redes */
-.redesContainer{
+.redesContainer {
   display: flex;
   color: black;
   width: 100%;
@@ -271,13 +251,13 @@ font-weight: bold;
   justify-content: center;
   align-items: center;
 }
-.redes{
+.redes {
   gap: 20px;
 }
 /* fin de redes */
 /* slider */
-   
-.sliderContainer{
+
+.sliderContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -285,10 +265,10 @@ font-weight: bold;
   flex-direction: column;
 }
 .sliderTitle h2 {
-font-weight: bold;
- color: black;
+  font-weight: bold;
+  color: black;
 }
-.counterSliderContainer{
+.counterSliderContainer {
   display: flex;
 }
 .counter-container {
@@ -306,7 +286,7 @@ font-weight: bold;
 .counter {
   font-size: 60px;
   margin-top: 10px;
-   color: black;
+  color: black;
 }
 
 @media (max-width: 580px) {
@@ -317,7 +297,7 @@ font-weight: bold;
 
 /* fin de slider */
 /* formulario  */
- .formulario{
+.formulario {
   margin-top: 50px;
   width: 100%;
   display: flex;
@@ -326,7 +306,7 @@ font-weight: bold;
   text-align: center;
 }
 
-.formularioContainer{
+.formularioContainer {
   width: 90%;
   display: flex;
   justify-content: center;
@@ -334,88 +314,82 @@ font-weight: bold;
   text-align: center;
 }
 .formulario form {
-	background-color: #fff;
-	padding: 20px;
-	margin: 0 auto;
-	max-width: 1100px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1100px;
   border-radius: 20px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding-bottom: 10px;
   width: 900px;
- 
 }
 
 .formulario h2 {
-	font-size: 36px;
-	font-weight: bold;
-	margin-top: 0;
-	margin-bottom: 20px;
-	text-align: center;
-	color:black;
- 
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
 }
-.formulario h3{
-  
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 20px;
-    text-align: center;
-    color:black;
-  
+.formulario h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
 }
 .formulario .form-group {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .formulario label {
-	display: block;
-	font-size: 18px;
-	font-weight: bold;
-	margin-bottom: 10px;
-	color: black;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
 }
 
 .formulario input[type="text"],
 .formulario input[type="email"],
 .formulario input[type="tel"],
 .formulario textarea {
-	display: block;
-	width: 100%;
-	padding: 10px;
-	font-size: 16px;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
 .formulario input[type="submit"] {
-	display: block;
-	width: 100%;
-	padding: 10px;
-	background-color: #e7501d9e;
-	color: #fff;
-	font-size: 18px;
-	font-weight: bold;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #e7501d9e;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-
-	
 /* formulario  */
-.logoContainer{border: 2px solid black;
-padding: 5px;
-margin-bottom: 20px;}
-  /* footer */
-
-.footer{
-
-
-padding: 10px;
+.logoContainer {
+  border: 2px solid black;
+  padding: 5px;
+  margin-bottom: 20px;
 }
-.derechos{
+/* footer */
+
+.footer {
+  padding: 10px;
+}
+.derechos {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -425,34 +399,32 @@ padding: 10px;
 .derechos p {
   margin-top: 30px;
   color: black;
-  font-size:20px;
+  font-size: 20px;
   font-weight: bold;
 }
 .derechos i:hover {
   animation-name: animacion1;
   animation-duration: 1s;
 }
-.socialLinks{
+.socialLinks {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   gap: 15px;
- 
 }
-.socialLinks i{
-  color: black ;
-  background-color:white;
+.socialLinks i {
+  color: black;
+  background-color: white;
   border-radius: 100%;
   padding: 10px;
   margin-bottom: 30px;
 }
-.socialLinks i:hover{
-  color: #e74f1d ;
+.socialLinks i:hover {
+  color: #e74f1d;
 }
 
 /* footer */
-
 
 @keyframes animacion1 {
   from {
@@ -465,59 +437,55 @@ padding: 10px;
 /* fin del footer  */
 
 /* medias */
-@media (max-width: 1300px){
-  .imgfixed{
-  
+@media (max-width: 1300px) {
+  .imgfixed {
     background-position: 70%;
   }
 }
 
-
 @media (max-width: 800px) {
-.formacionFuncion{
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  max-width: 100%;
-}
+  .formacionFuncion {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
 
-.counterSliderContainer{
-  flex-direction: column;
-}
-.sliderTitle{
-  width: 70%;
-
-}
-.sliderTitle h2 {
-  font-size: 28px; 
-}
+  .counterSliderContainer {
+    flex-direction: column;
+  }
+  .sliderTitle {
+    width: 70%;
+  }
+  .sliderTitle h2 {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 550px) {
   .navbar-brand {
     font-size: 20px;
   }
-  .titleHeroText{
-    
+  .titleHeroText {
     font-size: 25px;
   }
-  .subtitleHeroText{
+  .subtitleHeroText {
     font-size: 16px;
   }
-  .heroTextContainer{
+  .heroTextContainer {
     width: 90%;
   }
-  .biografia h2{
+  .biografia h2 {
     font-size: 22px;
   }
-  .biografia h4{
+  .biografia h4 {
     font-size: 16px;
   }
-  .logoContainer i{
-     position: relative;
-     top: 0px;
-     padding:0px;
+  .logoContainer i {
+    position: relative;
+    top: 0px;
+    padding: 0px;
   }
   .Title {
     justify-content: center;
@@ -526,17 +494,16 @@ padding: 10px;
     border: none;
     border-bottom: 1px;
   }
-  .logoycontenido p{
+  .logoycontenido p {
     font-size: 16px;
     justify-content: center;
     text-align: center;
     display: flex;
-  
   }
-  .sliderTitle h2{
+  .sliderTitle h2 {
     font-size: 22px;
   }
-  .imgfixed{
+  .imgfixed {
     height: 70vh;
     background-position: 75%;
   }
