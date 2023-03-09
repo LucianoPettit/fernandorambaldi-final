@@ -24,20 +24,11 @@
 /* body/html */
 html,
 body{
-  background-image: url("https://img.freepik.com/fotos-premium/fondo-blanco-simple-lineas-suaves-colores-claros_476363-5857.jpg?w=740");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-<<<<<<< HEAD
-=======
-main,footer{
-
-  
+  background-color:#e7501d68;
 
 }
->>>>>>> parent of 79dcc60 (update)
+
+
 .container {
   width: 100%;
   max-width: 1920px;
@@ -102,7 +93,7 @@ main,footer{
   background-image: linear-gradient(390deg, #ffffff2a, rgba(0, 0, 0, 0.812) ),
     url("../img/test1.jpg");
   width: auto;
-  height: 80vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: center;
@@ -113,10 +104,11 @@ main,footer{
 .heroContainer {
   position: absolute;
   top: 0;
+  bottom: 0px;
   left: 0;
   right: 0;
   z-index: 1;
-margin-top:700px;
+margin-top:325px;
   padding: 20px;
   text-align: center;
 }
@@ -178,6 +170,7 @@ font-weight: bold;
   font-size: 20px;
   
 }
+
 .biografiaContainer h4 {
   font-size: 25px;
   line-height: 2;
@@ -187,7 +180,37 @@ font-weight: bold;
 }
 
 /* fin de biografia */
+.formacion h2{
+  text-align: center;
+   color: black;
+}
 
+.formacion h2{
+  text-align: center;
+  color: black;
+}
+
+.formacionFuncion{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.contenderFormacion{
+  width:90%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+  
+  
+}
+  .formacion{
+    width:80%;
+    margin: 10px;
+     color: black;
+     margin-top: 10px;
+     margin-right: 40px;
+  }
 /* formacion */
 
 .logoycontenido p {
@@ -248,34 +271,13 @@ font-weight: bold;
 }
 /* fin de redes */
 /* slider */
-.sliderTitle {
-  font-size: 45px;
-  padding: 30px;
-  font-weight: bold;
+    .sliderx2 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-}
-.slider {
-
-  flex-direction:column;
-  color: black;
-  font-family: 'Roboto Mono', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- margin-top: 140px;
- 
-
-}
-.sliderContainer{
-  display: flex;
-  flex-direction:row;
-  
-}
-
-.sliderx2{
-  display: flex;
-  flex-direction:row;
-}
 .counter-container {
   display: flex;
   flex-direction: column;
@@ -299,8 +301,19 @@ font-weight: bold;
 /* formulario  */
  .formulario{
   margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-  
+.formularioContainer{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .formulario form {
 	background-color: #fff;
@@ -310,6 +323,7 @@ font-weight: bold;
   border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
   padding-bottom: 10px;
+  width: 900px;
  
 }
 
@@ -361,7 +375,7 @@ font-weight: bold;
 	display: block;
 	width: 100%;
 	padding: 10px;
-	background-color: #007bff89;
+	background-color: #e7501d9e;
 	color: #fff;
 	font-size: 18px;
 	font-weight: bold;
@@ -436,9 +450,9 @@ padding: 10px;
 
 
 
-@media (max-width: 1920px) {
+/* @media (max-width: 1920px) {
   .imgfixed{
-    height: 60vh;
+    height: 90vh;
   }
  
 
@@ -452,8 +466,11 @@ padding: 10px;
   }
   .heroContainer {
    
-  margin-top:500px;
+  margin-top:200px;
     
+  }
+  .heroContainer{
+    margin-top:350px;
   }
 }
 
@@ -463,13 +480,19 @@ padding: 10px;
 @media (max-width: 1400px) {
   .imgfixed {
     background-position: center top;
-    height: 60vh;
+    height: 90vh;
   }
   
   .sliderTitle{
     font-size: 34px;
     bord
   }
+  .heroContainer{
+    margin-top: 600px;
+  }
+   .sliderx2Container {
+            
+        }    
 }
 
 
@@ -664,7 +687,10 @@ font-size: 23px;
   flex-direction: column;
 }
 .slider{
-  margin-top: 330px;
+  margin-top: 450px;
+}
+.sliderTitle{
+  margin-bottom: 500px;
 }
 .formacionFuncion{
   flex-direction: column;
@@ -695,7 +721,9 @@ font-size: 23px;
   max-width: 60%;
 }
 
-
+.slider{
+  margin-bottom: 50px;
+}
 }
 
 
@@ -769,4 +797,4 @@ font-size: 23px;
   }
 }
 
-/* fin de medias */
+fin de medias */
