@@ -55,6 +55,8 @@ body{
   font-size: 30px;
   color: white;
   margin-left: 30px;
+  font-weight: bold;
+  
 }
 .navbar-brand:hover {
   color: #e74f1d;
@@ -65,7 +67,6 @@ body{
   margin-right: 30px;
 }
 .nav-item:hover {
-  border-bottom: 1px solid black;
   
 }
 .nav-link:hover {
@@ -81,6 +82,7 @@ body{
 
 .nav-item    {
   font-size: 35px;
+  z-index: 10;
 }
 .custom-class {
   background-color: #ffffff; 
@@ -105,6 +107,7 @@ body{
   padding: 20px;
   text-align: center;
   width: 100%;
+  margin-top: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,7 +165,7 @@ font-weight: bold;
   
 }
 .biografiaContainer{
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,7 +176,7 @@ font-weight: bold;
 }
 
 .biografiaContainer h4 {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 2;
   padding-bottom: 40px;
   border-bottom: 2px solid black;
@@ -195,6 +198,7 @@ font-weight: bold;
   display: flex;
   justify-content: center;
   width: 100%;
+  
 }
 .contenderFormacion{
   width:90%;
@@ -272,13 +276,21 @@ font-weight: bold;
 }
 /* fin de redes */
 /* slider */
-    .sliderx2 {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
+   
+.sliderContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.sliderTitle h2 {
+font-weight: bold;
+ color: black;
+}
+.counterSliderContainer{
+  display: flex;
+}
 .counter-container {
   display: flex;
   flex-direction: column;
@@ -286,10 +298,15 @@ font-weight: bold;
   text-align: center;
   margin: 30px 50px;
 }
+.counter-container span {
+  font-weight: bold;
+  color: black;
+}
 
 .counter {
   font-size: 60px;
   margin-top: 10px;
+   color: black;
 }
 
 @media (max-width: 580px) {
@@ -448,10 +465,84 @@ padding: 10px;
 /* fin del footer  */
 
 /* medias */
+@media (max-width: 1300px){
+  .imgfixed{
+  
+    background-position: 70%;
+  }
+}
 
 
+@media (max-width: 800px) {
+.formacionFuncion{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  max-width: 100%;
+}
 
-/* @media (max-width: 1920px) {
+.counterSliderContainer{
+  flex-direction: column;
+}
+.sliderTitle{
+  width: 70%;
+
+}
+.sliderTitle h2 {
+  font-size: 28px; 
+}
+}
+
+@media (max-width: 550px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .titleHeroText{
+    
+    font-size: 25px;
+  }
+  .subtitleHeroText{
+    font-size: 16px;
+  }
+  .heroTextContainer{
+    width: 90%;
+  }
+  .biografia h2{
+    font-size: 22px;
+  }
+  .biografia h4{
+    font-size: 16px;
+  }
+  .logoContainer i{
+     position: relative;
+     top: 0px;
+     padding:0px;
+  }
+  .Title {
+    justify-content: center;
+    align-items: ;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px;
+  }
+  .logoycontenido p{
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  
+  }
+  .sliderTitle h2{
+    font-size: 22px;
+  }
+  .imgfixed{
+    height: 60vh;
+    background-position: 75%;
+  }
+}
+/*
+ @media (max-width: 1920px) {
   .imgfixed{
     height: 90vh;
   }
