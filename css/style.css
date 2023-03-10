@@ -52,9 +52,11 @@ body {
   color: white;
   margin-left: 30px;
   font-weight: bold;
+  z-index: 10;
 }
 .navbar-brand:hover {
   color: #e74f1d;
+  z-index: 10;
 }
 #navbarText {
   font-size: 18px;
@@ -69,11 +71,15 @@ body {
 .nav-link {
   color: white;
   font-size: 20px;
+  z-index: 10;
 }
 .navbar {
   background-color: transparent !important;
+  z-index: 10;
 }
-
+.navbar-nav {
+  z-index: 10;
+}
 .nav-item {
   font-size: 35px;
   z-index: 10;
@@ -504,7 +510,7 @@ i {
     font-size: 22px;
   }
   .imgfixed {
-    height: 70vh;
+    height: 80vh;
     background-position: 75%;
   }
 }
